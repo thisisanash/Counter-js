@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown --||-- Day 07</title>
+
+    <!-- Theame Color -->
+    <meta name="theme-color" content="#01a1a1" />
+    <!-- Favicon  -->
+    <link
+      rel="icon"
+      href="https://raw.githubusercontent.com/thisisanash/15-project-in-15-days/main/Favicon/Day%2007.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="current-date">22 Dec, Wed</div>
+        <div class="current-time">6:45 PM</div>
+      </nav>
+      <div class="title">
+        <h1>
+          The Times of <a href="https://anashlinks.netlify.com">@ThisIsAnash</a>
+        </h1>
+      </div>
+    </header>
+    <section class="main">
+      <h3>
+        Muhammad Anash has just done his
+        <a href="https://prj-06.netlify.com">6th project</a> of
+        <a href="https://www.instagram.com/explore/tags/15projectin15days/"
+          >#15ProjectIn15Days</a
+        >.
+      </h3>
+      <h2 class="dashBoard">Set Countdown in Below Boxes</h2>
+      <div class="timer">
+        <div class="hours">
+          <input type="number" id="hours" min="0" value="00" max="23" />
+          <p>Hours</p>
+        </div>
+        <div class="mins">
+          <input type="number" id="mins" min="0" value="00" max="59" />
+          <p>Mins</p>
+        </div>
+        <div class="secs">
+          <input type="number" id="secs" min="0" value="00" max="59" />
+          <p>Secs</p>
+        </div>
+      </div>
+      <div class="btns">
+        <button id="start">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            id="footer-sample-full"
+            width="1rem"
+            height="1rem"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+            class="iconify iconify--mdi"
+          >
+            <path d="M8 5.14v14l11-7l-11-7z" fill="currentColor"></path>
+          </svg>
+        </button>
+        <button id="pause" class="disable">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            aria-hidden="true"
+            role="img"
+            id="footer-sample-full"
+            width="1rem"
+            height="1rem"
+            preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24"
+            class="iconify iconify--mdi"
+          >
+            <path d="M14 19h4V5h-4M6 19h4V5H6v14z" fill="currentColor"></path>
+          </svg>
+        </button>
+        <button id="restart" class="disable">
+          <svg
+            width="1rem"
+            height="1rem"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.89 5.0799C14.02 4.8199 13.06 4.6499 12 4.6499C7.20996 4.6499 3.32996 8.5299 3.32996 13.3199C3.32996 18.1199 7.20996 21.9999 12 21.9999C16.79 21.9999 20.67 18.1199 20.67 13.3299C20.67 11.5499 20.13 9.8899 19.21 8.5099"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16.13 5.32L13.24 2"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M16.13 5.32007L12.76 7.78007"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <footer><a href="https://anashlinks.netlify.com">@thisisanash</a></footer>
+  </body>
+  <script src="Script.js"></script>
+</html>
